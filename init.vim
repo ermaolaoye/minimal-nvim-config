@@ -22,3 +22,7 @@ let mapleader = " "
 nmap <leader>fw :w!<cr>
 nmap <leader>fq :q<cr>
 inoremap jk <esc>
+
+set clipboard=unnamedplus
+
+hi Normal guibg=NONE ctermbg=NONE
